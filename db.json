@@ -1,0 +1,38 @@
+{
+  "employees": [
+    {
+      "id": "uniq2",
+      "name": "Gangadhar v",
+      "age": 18,
+      "gender": "Male",
+      "position": "Developer sdss",
+      "organization": "fasdffffff",
+      "addresses": [
+        {
+          "plotNumber": "lkj",
+          "cityName": "asdfffffffff",
+          "stateName": "Andrapradesh",
+          "postalCode": "563101",
+          "country": "india"
+        }
+      ]
+    },
+    {
+      "id": "uniq8",
+      "name": "Somnath",
+      "age": 18,
+      "gender": "Male",
+      "position": "Developer sdss",
+      "organization": "fasdffffff",
+      "addresses": [
+        {
+          "plotNumber": "asdfffffff",
+          "cityName": "asdffffffff",
+          "stateName": "Karnatak",
+          "postalCode": "563101",
+          "country": "india"
+        }
+      ]
+    }
+  ]
+}
