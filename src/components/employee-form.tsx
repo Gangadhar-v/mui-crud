@@ -305,7 +305,7 @@ const EmployeeForm: React.FC<EmployeeFormProps> = ({ isEdit = false, defaultValu
 
   <Paper sx={{ height: '300px', width: '100%', overflow: 'hidden' }}>
     <DataGrid
-      rows={filteredAddresses.map((field,) => ({ ...field, id: field.id || `addr-${Date.now()}` }))} // Ensure each row has a unique ID
+      rows={filteredAddresses.map((field,) => ({ ...field, id: field.id || `addr-${Date.now()}` }))} 
       columns={addressColumns}
       autoHeight
       disableRowSelectionOnClick

@@ -63,7 +63,7 @@ const AddressDialog: React.FC<AddressDialogProps> = ({
   return (
     <Dialog open={open} onClose={onClose} maxWidth="sm" fullWidth>
       <DialogTitle>{address ? "Edit Address" : "Add New Address"}</DialogTitle>
-      {/* Isolated form to prevent bubbling */}
+    
       <form
         onSubmit={(e) => {
           e.stopPropagation();
